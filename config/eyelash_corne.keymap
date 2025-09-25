@@ -54,7 +54,11 @@
         mac_snip: mac_snip {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_GUI &kp NUMBER_4>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_GUI &kp NUMBER_4>,
+                <&macro_release>;
+
             label = "MAC_SNIP";
         };
     };
