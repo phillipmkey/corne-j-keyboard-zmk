@@ -57,7 +57,8 @@
             bindings =
                 <&macro_press>,
                 <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_GUI &kp NUMBER_4>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LCTRL &kp LEFT_SHIFT &kp LEFT_GUI &kp NUMBER_4>;
 
             label = "MAC_SNIP";
         };
